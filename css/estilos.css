@@ -241,7 +241,7 @@ body {
 }
 
 .price__price{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--color-price);
 }
 
@@ -652,12 +652,18 @@ body {
     .footer__form{
         width: 100%;
         justify-content: space-evenly;
+        
     }
 
     .footer__input{
         flex: 1;
     }
-
+    
+    .footer__title{
+        justify-self: center;
+        margin-bottom: 5px;
+        padding-top: 15px;
+    }
 }
 
 @media (max-width:600px){
@@ -709,12 +715,13 @@ body {
     }
 
     .footer__title{
-        justify-self: start;
-        margin-bottom: 15px;
+        justify-self: center;
+        margin-bottom: 5px;
+        padding-top: 15px;
     }
 
     .nav--footer{
-        padding-bottom: 60px;
+        padding-bottom: 1px;
     }
 
     .nav__link--footer{
